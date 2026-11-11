@@ -1,0 +1,38 @@
+{
+    "name": "fiskit/fiskit-php",
+    "description": "Official PHP client for the FisKit API: Argentine electronic invoices with ARCA (ex AFIP) in a single request. Works with Laravel out of the box.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["arca", "afip", "factura electronica", "invoicing", "argentina", "cae", "laravel", "fiskit"],
+    "homepage": "https://fiskit.com.ar/developers",
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fiskit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fiskit\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Fiskit\\Laravel\\FiskitServiceProvider"],
+            "aliases": {
+                "Fiskit": "Fiskit\\Laravel\\Facades\\Fiskit"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
