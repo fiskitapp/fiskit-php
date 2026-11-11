@@ -47,8 +47,8 @@
     },
     "minimum-stability": "stable",
     "support": {
-        "issues": "https://github.com/FidelGenre/fiskit-php/issues",
-        "source": "https://github.com/FidelGenre/fiskit-php",
+        "issues": "https://github.com/fiskitapp/fiskit-php/issues",
+        "source": "https://github.com/fiskitapp/fiskit-php",
         "docs": "https://fiskit.com.ar/developers"
     }
 }
