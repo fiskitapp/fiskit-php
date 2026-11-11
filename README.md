@@ -51,6 +51,8 @@ To customize the settings: `php artisan vendor:publish --tag=fiskit-config`.
 
 Full documentation: https://fiskit.com.ar/developers
 
+Coding with an AI agent? Point it to https://fiskit.com.ar/llms.txt: the API rules, errors and examples in plain text.
+
 ---
 
 ## Español
@@ -72,3 +74,5 @@ $factura = $fiskit->invoices->create(
 Las claves `sk_test_...` emiten en homologación, sin validez fiscal; las `sk_live_...` emiten facturas reales.
 
 Documentación completa: https://fiskit.com.ar/developers
+
+¿Programás con un agente de IA? Pasale https://fiskit.com.ar/llms.txt: las reglas, errores y ejemplos de la API en texto plano.
